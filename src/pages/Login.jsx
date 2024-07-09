@@ -30,7 +30,14 @@ const SignUp = (props) => {
             <h3 className="h4 mt-5" id="lg-h4">
               User Login Details
             </h3>
-            <br />
+            <div>
+              <small className="doctor-login">
+                  <Link to="/adminlogin" id="sgn-up-lnk">
+                  Login as Doctor
+                  </Link>
+                </small>
+              </div>
+              
             <form
               id="form"
               className="needs-validation"
@@ -85,7 +92,9 @@ const SignUp = (props) => {
                     Admin Login
                   </Link>
                 </small>
+  
               </div>
+             
             </form>
           </div>
           <hr />

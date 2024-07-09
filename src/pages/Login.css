@@ -49,6 +49,7 @@ input {
   border-radius: 5px;
   border: 1px solid #887e7e;
   margin-bottom: 5px;
+  margin-top: 5px;
 }
 .socialmedia1 {
   width: 50px;
@@ -81,4 +82,8 @@ svg {
 .text-right {
   margin-left: 4rem;
   text-decoration: none;
+}
+.doctor-login{
+  margin-left: 14rem;
+  font-weight: bolder;
 }
