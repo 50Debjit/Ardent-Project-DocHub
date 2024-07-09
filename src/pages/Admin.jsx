@@ -74,18 +74,18 @@ const Admin=()=>{
             </div>
 
             <div className="box-container-admin">
-              <div claclassNamess="box box1">
+              <div className="box box1">
                 <div className="text">
                   <h2 className="topic-heading">50K</h2>
                   <h2 className="topic">User</h2>
-                </div>
-
+                  </div>
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlFNe0yoa6jIN6jf_53CPX9MYtMkAx_w5klw&s"
                   alt="user"
                 />
               </div>
-
+              
+              
               <div className="box box2">
                 <div className="text">
                   <h2 className="topic-heading">41K</h2>
@@ -122,8 +122,9 @@ const Admin=()=>{
                       <div className="card-header">List of the Doctors</div>
                       <div className="card-body">
                         <section className="table_body">
-                          <table className="table table-dark table-hover table-bordered table-responsive">
-                            <thead>
+                          <table className="table table-dark table-bordered table-admin ">
+                          <thead>
+                            <tr>
                               <th scope="col">ID</th>
                               <th scope="col">Email</th>
                               <th scope="col">Password</th>
@@ -133,52 +134,15 @@ const Admin=()=>{
                               <th scope="col">Department</th>
                               <th scope="col">Schedule</th>
                               <th scope="col">Address</th>
-                              <th class="text-center">ACTIONS</th>
+                              <th className="text-center">ACTIONS</th>
+                              </tr>
                             </thead>
                             <tbody>
                               <tr>
                                 <th>1</th>
-                                <th>2441139</th>
                                 <th>pritam@mail.com</th>
+                                <th>2441139</th>
                                 <th>Pritam Ghosh</th>
-                                <th>1234567890</th>
-                                <th>Male</th>
-                                <th>cardio</th>
-                                <th>Mon-Fri-Sat</th>
-                                <th>8,Belaabose road </th>
-                                <td class="text-center">
-                                  <button className="btn btn-success ">
-                                    ACCEPT
-                                  </button>
-                                  <button className="btn btn-danger ">
-                                    REJECT
-                                  </button>
-                                </td>
-                              </tr>
-                              <tr>
-                                <th>2</th>
-                                <th>2441139</th>
-                                <th>Debjit@mail.com</th>
-                                <th>DEBU da</th>
-                                <th>1234567890</th>
-                                <th>Male</th>
-                                <th>cardio</th>
-                                <th>Mon-Fri-Sat</th>
-                                <th>8,Belaabose road </th>
-                                <td class="text-center">
-                                  <button className="btn btn-success ">
-                                    ACCEPT
-                                  </button>
-                                  <button className="btn btn-danger ">
-                                    REJECT
-                                  </button>
-                                </td>
-                              </tr>
-                              <tr>
-                                <th>3</th>
-                                <th>2441139</th>
-                                <th>Nabankur@mail.com</th>
-                                <th>Nabankur</th>
                                 <th>1234567890</th>
                                 <th>Male</th>
                                 <th>cardio</th>
@@ -194,10 +158,200 @@ const Admin=()=>{
                                 </td>
                               </tr>
                               <tr>
-                                <th>4</th>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
                                 <th>2441139</th>
-                                <th>Kollyan@mail.com</th>
-                                <th>kol</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
+                                <th>1234567890</th>
+                                <th>Male</th>
+                                <th>cardio</th>
+                                <th>Mon-Fri-Sat</th>
+                                <th>8,Belaabose road </th>
+                                <td className="text-center">
+                                  <button className="btn btn-success ">
+                                    ACCEPT
+                                  </button>
+                                  <button className="btn btn-danger ">
+                                    REJECT
+                                  </button>
+                                </td>
+                              </tr>
+                              <tr>
+                                <th>1</th>
+                                <th>pritam@mail.com</th>
+                                <th>2441139</th>
+                                <th>Pritam Ghosh</th>
                                 <th>1234567890</th>
                                 <th>Male</th>
                                 <th>cardio</th>
@@ -223,7 +377,6 @@ const Admin=()=>{
             </div>
           </div>
         </div>
-        {/* <Footer/> */}
       </div>
     );
     };
