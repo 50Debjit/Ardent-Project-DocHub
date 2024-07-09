@@ -24,7 +24,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   background: #fff;
-  /* padding: 50px 60px 70px; */
   padding: 50px;
   text-align: center;
   border-radius: 7.5px;
@@ -64,16 +63,18 @@
 .icon-container {
   display: inline-block;
   margin: 10px;
-  transition: transform 0.3s ease; /* Smooth transition for the hover effect */
+  transition: transform 0.3s ease;
+  /* Smooth transition for the hover effect */
 }
 
 .icon-container:hover {
-  transform: translateY(-5px); /* Move the icon up by 5px on hover */
+  transform: translateY(-5px);
 }
+
 svg {
   vertical-align: middle;
   width: 50px;
   height: 30px;
   margin-top: 9px;
-  color: rgb(21 21 164/80% ),
+  color: rgb(21 21 164/80%),
 }

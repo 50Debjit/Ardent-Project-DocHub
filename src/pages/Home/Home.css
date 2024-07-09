@@ -5,12 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* ============================= */
   background: white;
-  /* ============================= */
 }
 
-.navbar{
+.navbar {
   background-color: white;
 }
 .navbar-brand {
@@ -20,74 +18,71 @@ body {
   color: cornflowerblue;
 }
 
-
-.homepic{
+.homepic {
   width: 500px;
   height: 500%;
   border: 1px solid black;
 }
 
-.container,.container-fluid{
+.container,
+.container-fluid {
   background-color: white;
 }
- /* .main-content{
-    display: flex;
-    flex-direction: row;
-   width: 100%;
-    height: 50vh;
-    
-  }  */
 
- .Doctor_image{
-        height: 80vh;
-        width: 100%;    
-      } 
-/* Header */
+.Doctor_image {
+  height: 80vh;
+  width: 100%;
+}
+/* Header  CSS*/
 
-.signin{
-  background-color: #FFFFFF;
-  border: 1px solid #0F38A1;
+.signin {
+  background-color: #ffffff;
+  border: 1px solid #0f38a1;
   border-radius: 16px;
   width: 80px;
   height: 29px;
-  color: #0F38A1;
+  color: #0f38a1;
 }
-.signup{
-  background-color: #ED930C;
+.signup {
+  background-color: #ed930c;
   width: 91px;
   height: 29px;
   border-radius: 16px;
-  border: 1px solid #ED930C;
+  border: 1px solid #ed930c;
   color: white;
 }
-.btn{
+.btn {
   margin-left: 10px;
   display: inline;
 }
-.nav-link{
-  color:#0F38A1;
+.nav-link {
+  color: #0f38a1;
 }
 
-.search-btn{
-  margin-left:0px; 
+.search-btn {
+  margin-left: -1.8rem;
+  margin-bottom: 5px;
 }
-.dochub_logo{
+.dochub_logo {
   width: 50%;
   height: 3rem;
 }
-ul{
+.dochub_logomain {
+  width: 90%;
+  height: 3rem;
+}
+ul {
   margin-left: 1rem;
 }
-/* .search{
-  height: 50%;
-} */
-
-/* Footer */
-
-footer{
+.search {
+  margin-top: 3px;
+  margin-right: 0;
+}
+/* Footer CSS */
+footer {
   text-align: center;
-  background-color: #ebebeb;
-  height: 2rem;
+  background-color: white;
+  height: 1rem;
   display: flex;
   text-wrap: wrap;
   justify-content: center;
@@ -95,33 +90,47 @@ footer{
   height: 100%;
   width: 100%;
 }
-.f-info-link a{
+.f-info-link a {
   text-decoration: none;
   color: #222222;
   margin: 1rem;
-  
 }
-.f-info-link a:hover{
+.f-info-link a:hover {
   background-color: grey;
-  }
-  .f-info-link ,.f-info-social,.f-info-body {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
+}
+.f-info-link,
+.f-info-social,
+.f-info-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 
-.f-info{
-   
+.f-info {
   width: 100%;
 }
 
 /* Main */
-.main-content{
+.main-content {
   min-height: 80vh;
 }
-.Doctor_image{
+.Doctor_image {
   max-width: 100%;
   max-height: 100%;
+}
+.bookbtn {
+  width: 300px;
+  height: 104px;
+  border: 1px solid orange;
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  background: linear-gradient(-30deg, #ffd200 50%, #f7971e 50%);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 100px;
 }

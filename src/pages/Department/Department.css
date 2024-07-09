@@ -1,0 +1,20 @@
+.dept {
+    display: inline-block;
+    margin: 6rem;
+    margin-top: 1rem;
+}
+.dept-container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8)),
+        url(https://t3.ftcdn.net/jpg/02/19/91/48/360_F_219914874_fcqxEeJ6clfwf43OcCNAMGNBySKzF5hl.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.department {
+    margin-top: 0rem;
+    text-align: center;
+    font-weight: bold;
+}

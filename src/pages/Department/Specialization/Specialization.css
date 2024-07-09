@@ -1,0 +1,29 @@
+.doctors{
+    display: inline-block;
+    border: 1px solid black;
+    margin: 1rem;
+    border-radius: 10px;
+
+    width: 400px;
+    height: 300pxs;
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.doctors-img{
+    width: 100%;
+    border-radius: 10px;
+}
+.Cardiology-container{
+    background-color: white;
+    margin-left: 4.5rem;
+}
+.btn{
+    margin-bottom: .5rem;
+}
+.doctext{
+    margin-top: 2rem;
+    margin-left: 35rem;
+    color: blue;
+}

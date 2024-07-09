@@ -1,85 +1,93 @@
 .login_para {
-    align-items: center;
-    
-    justify-content: center;
-    align-content: center;
-    height: 59vh;
-    width: 50%;
-    border-radius: 10px;
-  }
-  .main{
-    max-width: fit-content;
-    margin-top: 7rem;
-    margin-right: auto;
-    margin-left: 4.2rem;
-  }
-  
-  
-  #fg-ps {
-   
-    text-decoration: none;
-    font-size: 0.875em;
-    color: gray;
-    font-weight: 400;
-    margin-left: 13rem;
-    justify-content: space-between;
-  
-    
-  }
-  
-  #sgn-up-lnk {
-    text-decoration: none;
-    color: rgb(255, 193, 7);
-    font-weight: 600;
-  }
-  
-  #btn-lg {
-    border-radius: 5px;
-    width: 330px;
-    height: 50px;
-    background-color: #0B6EFE;
-    color: white;
-    margin-left: 0px;
-    
-  }
-  
-  
-  #warn {
-    text-align: left;
-    text-align: justify;
-  }
-  
-  input{
-    width: 330px;
-    height: 50px;
-    border-radius: 5px;
-   border:1px solid #887E7E;
-    margin-bottom: 5px;
-  }
-  .socialmedia1{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: #ECE9EC; 
-     display: inline-block;
-    margin: 1rem; 
-  }
-  .socialmedia{
-    margin-left: 9rem;
-    margin-bottom: 2rem;
-    margin-top: .5rem;
-  }
-  p{
-   text-align: center;
-   margin-top: 1rem;
-   margin-left: rem;
-  };
-  .dochub_logo{
+  align-items: center;
+
+  justify-content: center;
+  align-content: center;
+  height: 59vh;
   width: 50%;
-  }
-  svg {
-    vertical-align: middle;
-    width: 50px;
-    height: 30px;
-    margin-top: 9px;
-  }
+  border-radius: 10px;
+}
+
+.main {
+  max-width: fit-content;
+  margin-top: 7rem;
+  margin-right: auto;
+  margin-left: 4.2rem;
+}
+
+
+#fg-ps {
+
+  text-decoration: none;
+  font-size: 0.875em;
+  color: gray;
+  font-weight: 400;
+  margin-left: 13rem;
+  justify-content: space-between;
+
+
+}
+
+#sgn-up-lnk {
+  text-decoration: none;
+  color: rgb(255, 193, 7);
+  font-weight: 600;
+}
+
+#btn-lg {
+  border-radius: 5px;
+  width: 330px;
+  height: 50px;
+  background-color: #0B6EFE;
+  color: white;
+  margin-left: 0px;
+
+}
+
+
+#warn {
+  text-align: left;
+  text-align: justify;
+}
+
+input {
+  width: 330px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #887E7E;
+  margin-bottom: 5px;
+}
+
+.socialmedia1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ECE9EC;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.socialmedia {
+  margin-left: 9rem;
+  margin-bottom: 2rem;
+  margin-top: .5rem;
+}
+
+p {
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: rem;
+}
+
+;
+
+.dochub_logo {
+  width: 50%;
+}
+
+svg {
+  vertical-align: middle;
+  width: 50px;
+  height: 30px;
+  margin-top: 9px;
+}

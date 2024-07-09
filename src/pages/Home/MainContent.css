@@ -1,16 +1,115 @@
-/* MainContent.css */
-/* .main-content{
-    display: flex;
-    flex-direction: row;
-   
-    height: 50vh;
-    
-  } */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: white;
+}
 
- /* .Doctor_image{
-        height: 50vh;
-        width: 100vh;
-       
-       
-      } */
-      
+.navbar {
+  background-color: white;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-style: blique;
+  color: cornflowerblue;
+}
+
+.homepic {
+  width: 500px;
+  height: 500%;
+  border: 1px solid black;
+}
+
+.container,
+.container-fluid {
+  background-color: white;
+}
+.Doctor_image {
+  height: 80vh;
+  width: 100%;
+}
+/* Header */
+
+.signin {
+  background-color: #ffffff;
+  border: 1px solid #0f38a1;
+  border-radius: 16px;
+  width: 80px;
+  height: 29px;
+  color: #0f38a1;
+}
+.signup {
+  background-color: #ed930c;
+  width: 91px;
+  height: 29px;
+  border-radius: 16px;
+  border: 1px solid #ed930c;
+  color: white;
+}
+.btn {
+  margin-left: 10px;
+  display: inline;
+  border: 1px solid orange;
+}
+.nav-link {
+  color: #0f38a1;
+}
+
+.search-btn {
+  margin-left: 0px;
+}
+.dochub_logo {
+  width: 50%;
+  height: 3rem;
+}
+ul {
+  margin-left: 1rem;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background-color: #ebebeb;
+  height: 2rem;
+  display: flex;
+  text-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+  height: 100%;
+  width: 100%;
+}
+.f-info-link a {
+  text-decoration: none;
+  color: #222222;
+  margin: 1rem;
+}
+.f-info-link a:hover {
+  background-color: grey;
+}
+.f-info-link,
+.f-info-social,
+.f-info-body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.f-info {
+  width: 100%;
+}
+
+/* Main */
+.main-content {
+  min-height: 80vh;
+}
+.Doctor_image {
+  max-width: 100%;
+  max-height: 100%;
+}

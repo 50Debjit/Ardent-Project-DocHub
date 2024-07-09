@@ -1,19 +1,17 @@
 import "./Home.css";
 import React from "react";
-import { Link } from "react-router-dom";
-import DocLogo from './Doctors.jpeg'
 import MainContent from "./MainContent";
 import Header from "./Header";
 import Footer from "./Footer";
 const Home = () => {
   return (
     <>
-      <Header/>
-     
-     <MainContent/>
-     
-     <Footer/>
-    
+      {/* //Go to Header.jsx */}
+      <Header />
+      {/* //Go to MainContent.jsx */}
+      <MainContent />
+      {/* // Go to Footer.jsx */}
+      <Footer />
     </>
   );
 };
