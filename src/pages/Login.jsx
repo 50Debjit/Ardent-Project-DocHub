@@ -88,7 +88,7 @@ const SignUp = (props) => {
                   </Link>
                 </small>
                 <small className="text-right">
-                  <Link to="/adminlogin" id="sgn-up-lnk">
+                  <Link to="/admin" id="sgn-up-lnk">
                     Admin Login
                   </Link>
                 </small>

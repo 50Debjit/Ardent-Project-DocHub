@@ -19,6 +19,7 @@ import Neurology from "./pages/Department/Specialization/Neurology";
 import Medicine from "./pages/Department/Specialization/Medicine";
 import ENT from "./pages/Department/Specialization/ENT";
 import Gynecology from "./pages/Department/Specialization/Gynecology";
+import Admin from "./pages/Admin";
 const App = () => {
   return (
     <Router>
@@ -38,6 +39,7 @@ const App = () => {
         <Route exact path="/Neurology" element={<Neurology />} />
         <Route exact path="/Medicine" element={<Medicine />} />
         <Route exact path="/Gynecology" element={<Gynecology />} />
+        <Route exact path="/admin" element={<Admin />} />
         <Route path="*" element={<h4>Page Not Found</h4>} />
       </Routes>
     </Router>
