@@ -1,0 +1,43 @@
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .team-section {
+    margin-top: 40px;
+  }
+  
+  .team-member {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .team-member h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+  }
+  
+  .team-member p {
+    font-size: 1em;
+    color: gray;
+  }

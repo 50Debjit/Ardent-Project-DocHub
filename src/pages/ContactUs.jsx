@@ -1,12 +1,11 @@
 import React from "react";
 import "./ContactUs.css";
 import { Link } from "react-router-dom";
-import { FaFacebook } from "react-icons/fa"
+import { FaFacebook } from "react-icons/fa";
 import { FaGoogle } from "react-icons/fa";
 const ContactUs = () => {
   return (
     <div>
-      
       <div className="ContactUs-container">
         <div className="Box">
           <h1 className="h1-1">Contact Us</h1>
@@ -66,11 +65,10 @@ const ContactUs = () => {
             </div>
             <div className="col" style={{ paddingLeft: "0px" }}>
               <h1 className="h1-2">Social Links</h1>
-             <span>
-             <FaFacebook />
-             <FaGoogle />
-             </span>
-              
+              <span>
+                <FaFacebook />
+                <FaGoogle />
+              </span>
             </div>
           </div>
         </div>

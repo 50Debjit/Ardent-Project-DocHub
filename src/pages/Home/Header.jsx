@@ -13,7 +13,7 @@ const Header = () => {
         <Link className="nav-link" to="/">
           <img src={Dochub} alt="" className="dochub_logomain" />{" "}
         </Link>
-        {/* <button
+        <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
@@ -23,7 +23,7 @@ const Header = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button> */}
+        </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav-item">

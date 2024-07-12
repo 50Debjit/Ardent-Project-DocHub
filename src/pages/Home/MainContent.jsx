@@ -9,8 +9,10 @@ const MainContent = () => {
       <div>
         <img src={DocLogo} alt="Doctor image" className="Doctor_image " />
 
-        {/* <Link to="/booking"> <button className="btn bookbtn btn-lg container-fluid" ><b>Book Appointment</b></button></Link>  */}
+        <h3 className=" maintext  container-fluid" ><b>Protecting You <br/>And Your Family</b></h3> <br></br>
+        
       </div>
+     <Link to="/department" ><button className="mainbtn">Check Our Services</button></Link>
     </main>
   );
 };

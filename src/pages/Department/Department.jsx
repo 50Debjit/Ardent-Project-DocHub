@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 const Department = () => {
   //Department Page
   return (
-    <div className="dept-container">
+    <div className="dept-container ">
       <Header />
       <div
-        className="container department card"
+        className="container department card  "
         style={{
           height: window.innerHeight - 100,
           maxWidth: 1000,

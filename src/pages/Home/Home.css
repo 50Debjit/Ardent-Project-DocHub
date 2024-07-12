@@ -20,7 +20,7 @@ body {
 
 .homepic {
   width: 500px;
-  height: 500%;
+  height: 400%;
   border: 1px solid black;
 }
 
@@ -79,21 +79,22 @@ ul {
   margin-right: 0;
 }
 /* Footer CSS */
-footer {
+#footer {
   text-align: center;
-  background-color: white;
-  height: 1rem;
+  background-color: #82c4fe;
+
   display: flex;
   text-wrap: wrap;
   justify-content: center;
   align-items: space-evenly;
-  height: 100%;
+  /* height: 100%; */
   width: 100%;
 }
-.f-info-link a {
+.f-info-link  {
   text-decoration: none;
-  color: #222222;
-  margin: 1rem;
+  /* color: #222222; */
+  margin: 10px;
+  color: white;
 }
 .f-info-link a:hover {
   background-color: grey;
@@ -106,12 +107,21 @@ footer {
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+  color: white;
+  display: inline;
+  /* margin: 10px; */
 }
 
 .f-info {
   width: 100%;
 }
-
+.footerbtn {
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  border: 1px white solid;
+  padding: 6.5px;
+}
 /* Main */
 .main-content {
   min-height: 80vh;
@@ -120,17 +130,43 @@ footer {
   max-width: 100%;
   max-height: 100%;
 }
-.bookbtn {
-  width: 300px;
-  height: 104px;
-  border: 1px solid orange;
+.maintext {
+  width: 400px;
+  height: 200px;
   position: absolute;
-  top: 50%;
-  left: 37%;
-  background: linear-gradient(-30deg, #ffd200 50%, #f7971e 50%);
-  color: white;
-  font-size: 16px;
+  top: 30%;
+  left: 5%;
+  color: #0f38a1;
+  background: transparent;
+  font-size: 50px;
   padding: 12px 24px;
-  cursor: pointer;
-  border-radius: 100px;
+}
+.mainbtn {
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: 60%;
+  left: 6%;
+  color: #0f38a1;
+  background: transparent;
+  font-weight: bolder;
+}
+.about {
+  text-decoration:none;
+  font-weight: bold;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  .maintext {
+    width: 300px;
+  }
+  .mainbtn{
+    top:70%;
+    left: 9%;
+  }
+}
+  @media screen and (max-width: 991px) {
+  .footerbtn{
+    padding: 13px;
+  }
 }
