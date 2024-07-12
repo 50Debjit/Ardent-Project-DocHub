@@ -25,7 +25,7 @@ const Footer = () => {
             </section> */}
 
             <span>
-              <h5 className="f-info-link">Emergemcy care</h5>
+              <h5 className="f-info-link about">Emergemcy care</h5>
               <button className="footerbtn">8772244666</button>
             </span>
           </div>
